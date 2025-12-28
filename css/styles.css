@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+
+.cabecalho-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #FEB05D;
+}
+
+.cabecalho-nav-logo {
+    height: 150px;
+}
+
+.cabecalho-nav-item {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 800;
+    color: #2B2A2A;
+}
+
+.conteudo-principal {
+    background-color: #F5F2F2;
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+}
+
+.conteudo-principal-titulo {
+    padding: 0 0 1rem;
+    text-decoration: underline;
+}
+
+.conteudo-principal-wrapper{
+    display: flex;
+    flex-direction: column;
+    padding: 0 2rem 0 0;
+    gap: 15px;
+
+}
+
+.conteudo-principal-texto {
+    font-size: 1.5rem;
+    font-weight: 500;
+    text-align: justify;
+}
+
+.conteudo-principal-texto em {
+    font-weight: 600;
+    color: #5A7ACD;
+}
+
+.conteudo-principal-foto {
+    height: 550px;
+    border-radius: 10px;
+}
+
+.rodape {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px 0 0 0;
+    background-color: #5A7ACD;
+    gap: 15px;
+}
+
+.rodape-titulo {
+    padding: 15px;
+}
+
+.rodape-lista {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    gap: 2rem;
+    padding: 0 0 2.7rem 0; /*is it the best option?*/
+}
