@@ -9,6 +9,7 @@
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+    padding: 0 2rem;
     background-color: #FEB05D;
 }
 
@@ -23,11 +24,17 @@
     color: #2B2A2A;
 }
 
+.cabecalho-nav-item:hover {
+    color: #F5F2F2;
+}
+
 .conteudo-principal {
-    background-color: #F5F2F2;
+    background-color: transparent;
     padding: 2rem;
     display: flex;
     justify-content: center;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 .conteudo-principal-titulo {
@@ -54,6 +61,17 @@
     color: #5A7ACD;
 }
 
+.conteudo-principal-link {
+    text-decoration: underline;
+    font-weight: 700;
+    color: #2B2A2A;
+}
+
+.conteudo-principal-link:hover {
+    color: #FEB05D;
+}
+
+
 .conteudo-principal-foto {
     height: 550px;
     border-radius: 10px;
@@ -64,7 +82,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    padding: 20px 0 0 0;
+    padding: 2rem 0;
     background-color: #5A7ACD;
     gap: 15px;
 }
@@ -73,11 +91,26 @@
     padding: 15px;
 }
 
+.rodape-titulo span {
+    color: #F5F2F2;
+}
+
 .rodape-lista {
     display: flex;
     justify-content: center;
     align-items: center;
     list-style-type: none;
     gap: 2rem;
-    padding: 0 0 2.7rem 0; /*is it the best option?*/
 }
+
+.rodape-lista-item-icone {
+    height: 3rem; 
+    width: 3rem;
+    padding: 0.1rem;
+}
+
+.rodape-lista-item-icone:hover {
+    background-color: #F5F2F2;
+    border-radius: 50%;
+}
+
